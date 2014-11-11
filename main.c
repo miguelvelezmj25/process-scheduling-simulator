@@ -583,7 +583,6 @@ int main (int argc, char *argv[])
     printf("SSD Utilization %f\n", ((double)ssdUsageTime/((double)global_time-process_table[0].commands[0].time)));
 
 
-
     // Finish program
     return 0;
 };
